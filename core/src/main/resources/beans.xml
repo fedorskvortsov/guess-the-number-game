@@ -7,6 +7,6 @@
     <bean id="numberGenerator" class="org.skvortsov.main.NumberGeneratorImpl" />
 
     <bean id="game" class="org.skvortsov.main.GameImpl">
-        <constructor-arg ref="numberGenerator" />
+        <property name="numberGenerator" ref="numberGenerator" />
     </bean>
 </beans>
