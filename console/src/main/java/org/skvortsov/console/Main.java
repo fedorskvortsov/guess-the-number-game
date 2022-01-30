@@ -1,10 +1,12 @@
-package org.skvortsov.main;
+package org.skvortsov.console;
 
+import org.skvortsov.main.AppConfig;
+import org.skvortsov.main.MessageGenerator;
+import org.skvortsov.main.NumberGenerator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Main {
     private static final Logger logger = LoggerFactory.getLogger(Main.class);
