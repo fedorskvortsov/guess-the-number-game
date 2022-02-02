@@ -1,6 +1,6 @@
 package org.skvortsov.console;
 
-import org.skvortsov.main.AppConfig;
+import org.skvortsov.config.AppConfig;
 import org.skvortsov.main.MessageGenerator;
 import org.skvortsov.main.NumberGenerator;
 import org.slf4j.Logger;

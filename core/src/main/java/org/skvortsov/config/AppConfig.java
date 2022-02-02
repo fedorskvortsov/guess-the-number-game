@@ -1,10 +1,13 @@
-package org.skvortsov.main;
+package org.skvortsov.config;
 
+import org.skvortsov.main.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
 
 @Configuration
+@Import(GameConfig.class)
 @ComponentScan(basePackages = "org.skvortsov")
 public class AppConfig {
     @Bean
