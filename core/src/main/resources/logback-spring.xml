@@ -1,5 +1,6 @@
 <configuration>
-    <include resource="org/springframework/boot/logging/logback/base.xml" />
-    <logger name="org.skvortsov" level="debug" />
-    <logger name="org.springframework" level="trace" />
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <logger name="org.skvortsov" level="debug"/>
+    <logger name="org.springframework" level="trace"/>
+    <logger name="org.thymeleaf" level="info"/>
 </configuration>

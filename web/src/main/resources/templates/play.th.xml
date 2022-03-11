@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<thlogic>
+    <attr sel="#headId" th:replace="~{fragments/head::headFragment}"/>
+    <attr sel="#main-message" th:text="${mainMessage}"/>
+    <attr sel="#game-form" th:action="play"/>
+    <attr sel="#result-message" th:text="${resultMessage}"/>
+    <attr sel="#footerId" th:replace="~{fragments/footer::footer}"/>
+</thlogic>
