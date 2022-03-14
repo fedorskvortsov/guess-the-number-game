@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
 <thlogic>
     <attr sel="#footerId" th:fragment="footer"/>
+    <attr sel="#created-by" th:text="|#{game.createdBy} Fedor Skvortsov|"/>
 </thlogic>
